@@ -45,32 +45,34 @@
             </header>
 
 <div class="container">
+
     <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1"> titulo de la noticia</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo: ruka es la mejor waifu">
+          <label for="exampleFormControlInput1">Servicio al Cliente</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="asunto">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">tipo de problema</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>...</option>
+            <option>1 error de la pagina</option>
+            <option>2 noticia mal informada</option>
+            <option>3 no puedo subir mi noticia</option>
+            
+          </select>
         </div>
        
-        
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">escriba su noticia</label>
-          <textarea class="form-control col-12" id="exampleFormControlTextarea1" rows="3" style="height: 400px;"></textarea>
+          <label for="exampleFormControlTextarea1">Descripcion del problema</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
       </form>
 
-<!-- seleccionar archivo -->
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlFile1">Imagen de la noticia</label>
-          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      <div>
+
+          <button style="float: right; type="button" class="col-2 btn btn-danger">Cancelar</button>
+          <button style="float: right; type="button" class="col-2 btn btn-secondary">enviar</button>
         </div>
-      </form>
-
-
-
-
-
-
 
 
 
@@ -78,8 +80,4 @@
 
 
     </body>
-
-
-
-
 </html>
