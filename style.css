@@ -15,3 +15,24 @@ h1,h5{
     height: 30px;
     width: 30px;
 }
+.boton{
+    background-color:rgb(116, 25, 116);
+    color:white;
+    border: none;
+    padding: 10px;
+    font-size: 18.5px;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 13px;
+}
+.links{
+    background-color: #f1f1f1;
+    width: 185px;
+    display: none;
+}
+.desplegable:hover .links{
+    display: block;
+}
