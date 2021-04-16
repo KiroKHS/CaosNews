@@ -27,15 +27,15 @@ $(document).ready(function(){
 
         //Guardar los datos del input en variables
         var email = $("#usuario").val();
-        var password = $("#clave").val();
+        var clave = $("#clave").val();
         
 
         //Comparar datos con los de administrador
-        if(email == "periodista1" && password == "12345"){
+        if(email == "periodista1" && clave == "12345"){
             location.href="index.html";
         }
         //Comparar datos con los de colaborador
-        else if(email == "moderador1" && password == "12345"){
+        else if(email == "moderador1" && clave == "12345"){
             location.href="administrador.html";
 
         }else{
