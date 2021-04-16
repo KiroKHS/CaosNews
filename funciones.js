@@ -7,7 +7,7 @@ function fncValidacion(){
         return true;
     } 
     else if (jQuery('#usuario').val()== "moderador1" && jQuery('#clave').val()== "clave2") {
-        location.href ="index.html";
+        location.href ="administrador.html";
         alert('la secion se a iniciado correctamente');
         return true;
     } 
