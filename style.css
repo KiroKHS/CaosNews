@@ -36,3 +36,8 @@ h1,h5{
 .desplegable:hover .links{
     display: block;
 }
+
+.clima{
+    background:lightblue;
+    border-radius: 18px;
+}
