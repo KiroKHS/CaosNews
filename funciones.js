@@ -25,7 +25,7 @@ jQuery(document).ready(function(){
 
 
 
-// ++++++++++++++++++++++ validar usuario+++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++ validar usuario rechazada+++++++++++++++++++++++++++++++++++++++
 
 // function fncValidacion(){
 //     if(jQuery('#usuario').val()== "periodista1" && jQuery('#clave').val()== "clave1"){
@@ -44,7 +44,7 @@ jQuery(document).ready(function(){
 //     }
 // }
 
-// ++++++++++++++++++++++ validar usuario+++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++ validar usuario aceptada+++++++++++++++++++++++++++++++++++++++
 $(document).ready(function(){
     
     //Captura el botón
@@ -72,3 +72,4 @@ $(document).ready(function(){
         }
     });
 });
+
